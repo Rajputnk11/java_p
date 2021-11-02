@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+    .label:after {
+        content: 'text I want to change';
+    }
+    
+    .label:hover:after {
+        content: 'changed text';
+    }
+</style>
+
+<body>
+    <p>text <span class="label"></span> text</p>
+</body>
+
+</html>
